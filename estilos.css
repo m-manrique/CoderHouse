@@ -1,3 +1,7 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .navbar {
   background-color: #f0f0f0;
 }
@@ -15,11 +19,71 @@
 }
 
 aside {
-  background-color: aqua;
+  background-color: #d3cdcd;
+}
+
+aside h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 article {
-  background-color: blue;
+  background-image: url(img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+article .buscar {
+  text-align: right;
+}
+
+.buscar input {
+  border: black solid 2px;
+}
+
+.buscar i {
+  background-color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 25px;
+  border: black solid 1px;
+  margin: 5px;
+}
+
+article h2 {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+section div img {
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+}
+
+h4 {
+  border: black solid 1px;
+  background-color: #ffffff;
+  font-size: 15px;
+  padding: 3px;
+  margin-top: 5px;
+}
+
+.redes {
+  text-align: right;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.redes i {
+  background-color: #ffffff;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 25px;
+  border: black solid 1px;
+  margin-top: 5px;
 }
 
 footer {
@@ -27,6 +91,18 @@ footer {
   height: 40px;
 }
 
-/* @media only screen and (min-width:0) and (max-width:576px) {
+@media only screen and (min-width:0) and (max-width:768px) {
+  article h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+} 
 
-} */
+@media only screen and (min-width:769px){
+  .redes {
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+}
+
+
