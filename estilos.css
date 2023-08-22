@@ -1,6 +1,17 @@
-header {
-  background-color: red;
-  height: 60px;
+.navbar {
+  background-color: #f0f0f0;
+}
+
+.navbar-brand {
+  color: black !important;
+}
+
+.navbar-toggler {
+  border: 3px solid black !important;
+}
+
+.nav-link {
+  color: black !important;
 }
 
 aside {
@@ -12,6 +23,10 @@ article {
 }
 
 footer {
-  background-color: blueviolet;
+  background-color: #f0f0f0;
   height: 40px;
 }
+
+/* @media only screen and (min-width:0) and (max-width:576px) {
+
+} */
