@@ -18,6 +18,8 @@
   color: black !important;
 }
 
+/* Index Inicio */
+
 aside {
   background-color: #d3cdcd;
 }
@@ -85,24 +87,31 @@ h4 {
   border: black solid 1px;
   margin-top: 5px;
 }
+/* Index FIN */
+
+/* Productos Inicio */
+.producto h1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+/* Productos FIN */
 
 footer {
   background-color: #f0f0f0;
   height: 40px;
 }
 
-@media only screen and (min-width:0) and (max-width:768px) {
+@media only screen and (min-width: 0) and (max-width: 768px) {
   article h2 {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-} 
+}
 
-@media only screen and (min-width:769px){
+@media only screen and (min-width: 769px) {
   .redes {
     margin-top: 80px;
     margin-bottom: 20px;
   }
 }
-
-
