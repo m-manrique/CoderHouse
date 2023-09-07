@@ -7,8 +7,8 @@ $coloFondoAside: #d3cdcd;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-html, body {
-  min-height: 100%;
+main {
+  height: 100%;
 }
 
 .navbar {
@@ -30,7 +30,7 @@ html, body {
 /* Index Inicio */
 
 aside {
-  background-color: coloFondoAside;
+  background-color: $coloFondoAside;
 }
 
 aside h1 {
@@ -82,12 +82,14 @@ h4 {
   margin-top: 5px;
 }
 
-.redes {
-  text-align: right;
-  margin-top: 40px;
-  margin-bottom: 20px;
+.txt {
+  text-align: left;
 }
 
+.redes {
+  text-align: right;
+}
+/*
 .redes i {
   background-color: $colorFondoAnuncios;
   font-size: 30px;
@@ -95,7 +97,7 @@ h4 {
   border-radius: 25px;
   border: $colorBordes solid 1px;
   margin-top: 5px;
-}
+}*/
 /* Index FIN */
 
 /* Productos Inicio */
@@ -107,20 +109,27 @@ h4 {
 /* Productos FIN */
 
 /* Login Inicio */
-.login {
-  height: 100%;
-  width: 100%;
+
+form {
+  border: $colorBordes solid 1px;
 }
-.titulo{
+
+form input {
+  border: 1px solid $colorBordes !important;
+}
+/*
+.titulo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+*/
 /* Login FIN */
 
 footer {
   background-color: $colorNavFooter;
-  height: 40px;
+  position: fixed;
+  bottom: 0;
 }
 
 @media only screen and (min-width: 0) and (max-width: 768px) {
@@ -130,9 +139,26 @@ footer {
   }
 }
 
+@media only screen and (min-width: 0) and (max-width: 768px) {
+  .txt {
+    text-align: center;
+  }
+  .redes {
+    text-align: center;
+  }
+  .login {
+    margin-top: 5px !important;
+    margin-bottom: 100px !important;
+  }
+  .login h1 {
+    padding-bottom: 10px;
+  }
+}
+
+/*
 @media only screen and (min-width: 769px) {
   .redes {
     margin-top: 80px;
     margin-bottom: 20px;
   }
-}
+}*/
