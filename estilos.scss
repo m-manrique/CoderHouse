@@ -1,3 +1,8 @@
+$colorBordes: black;
+$colorNavFooter: #f0f0f0;
+$colorFondoAnuncios: #ffffff;
+$coloFondoAside: #d3cdcd;
+
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -7,22 +12,23 @@ html, body {
 }
 
 .navbar {
-  background-color: #f0f0f0;
+  background-color: $colorNavFooter;
 }
 
 .navbar-brand {
-  color: black !important;
+  color: $colorBordes !important;
 }
 
 .navbar-toggler {
-  border: 3px solid black !important;
+  border: 3px solid $colorBordes !important;
 }
 
 .nav-link {
-  color: black !important;
+  color: $colorBordes !important;
 }
 
 /* Index Inicio */
+
 aside {
   background-color: coloFondoAside;
 }
@@ -45,15 +51,15 @@ article .buscar {
 }
 
 .buscar input {
-  border: black solid 2px;
+  border: $colorBordes solid 2px;
 }
 
 .buscar i {
-  background-color: #ffffff;
+  background-color: $colorFondoAnuncios;
   font-size: 20px;
   padding: 10px;
   border-radius: 25px;
-  border: black solid 1px;
+  border: $colorBordes solid 1px;
   margin: 5px;
 }
 
@@ -69,8 +75,8 @@ section div img {
 }
 
 h4 {
-  border: black solid 1px;
-  background-color: #ffffff;
+  border: $colorBordes solid 1px;
+  background-color: $colorFondoAnuncios;
   font-size: 15px;
   padding: 3px;
   margin-top: 5px;
@@ -83,38 +89,37 @@ h4 {
 }
 
 .redes i {
-  background-color: #ffffff;
+  background-color: $colorFondoAnuncios;
   font-size: 30px;
   padding: 10px;
   border-radius: 25px;
-  border: black solid 1px;
+  border: $colorBordes solid 1px;
   margin-top: 5px;
 }
-
 /* Index FIN */
+
 /* Productos Inicio */
 .producto h1 {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 40px;
 }
-
 /* Productos FIN */
+
 /* Login Inicio */
 .login {
   height: 100%;
   width: 100%;
 }
-
-.titulo {
+.titulo{
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 /* Login FIN */
+
 footer {
-  background-color: #f0f0f0;
+  background-color: $colorNavFooter;
   height: 40px;
 }
 
@@ -124,9 +129,10 @@ footer {
     margin-bottom: 20px;
   }
 }
+
 @media only screen and (min-width: 769px) {
   .redes {
     margin-top: 80px;
     margin-bottom: 20px;
   }
-}/*# sourceMappingURL=estilos.css.map */
+}
