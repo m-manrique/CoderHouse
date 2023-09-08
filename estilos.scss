@@ -4,6 +4,9 @@ $colorFondoAnuncios: #ffffff;
 $coloFondoAside: #d3cdcd;
 
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -83,21 +86,12 @@ h4 {
 }
 
 .txt {
-  text-align: left;
+  text-align: right;
 }
 
 .redes {
-  text-align: right;
+  text-align: left;
 }
-/*
-.redes i {
-  background-color: $colorFondoAnuncios;
-  font-size: 30px;
-  padding: 10px;
-  border-radius: 25px;
-  border: $colorBordes solid 1px;
-  margin-top: 5px;
-}*/
 /* Index FIN */
 
 /* Productos Inicio */
@@ -117,18 +111,11 @@ form {
 form input {
   border: 1px solid $colorBordes !important;
 }
-/*
-.titulo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-*/
 /* Login FIN */
 
 footer {
   background-color: $colorNavFooter;
-  position: fixed;
+  position: sticky;
   bottom: 0;
 }
 
@@ -148,7 +135,7 @@ footer {
   }
   .login {
     margin-top: 5px !important;
-    margin-bottom: 100px !important;
+
   }
   .login h1 {
     padding-bottom: 10px;
