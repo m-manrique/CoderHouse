@@ -25,7 +25,6 @@ main {
   color: black !important;
 }
 
-/* Index Inicio */
 aside {
   background-color: #d3cdcd;
 }
@@ -87,16 +86,28 @@ h4 {
   text-align: left;
 }
 
-/* Index FIN */
-/* Productos Inicio */
 .producto h1 {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 40px;
 }
 
-/* Productos FIN */
-/* Login Inicio */
+.mision {
+  border: black solid 1px;
+}
+
+.mision p {
+  text-align: justify;
+}
+
+.vision {
+  border: black solid 1px;
+}
+
+.vision p {
+  text-align: justify;
+}
+
 form {
   border: black solid 1px;
 }
@@ -110,7 +121,6 @@ textarea {
   height: 200px;
 }
 
-/* Login FIN */
 footer {
   background-color: #f0f0f0;
   position: sticky;

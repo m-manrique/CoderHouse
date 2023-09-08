@@ -30,8 +30,6 @@ main {
   color: $colorBordes !important;
 }
 
-/* Index Inicio */
-
 aside {
   background-color: $coloFondoAside;
 }
@@ -92,17 +90,28 @@ h4 {
 .redes {
   text-align: left;
 }
-/* Index FIN */
 
-/* Productos Inicio */
 .producto h1 {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 40px;
 }
-/* Productos FIN */
 
-/* Login Inicio */
+.mision {
+  border: $colorBordes solid 1px;
+}
+
+.mision p {
+  text-align: justify;
+}
+
+.vision {
+  border: $colorBordes solid 1px;
+}
+
+.vision p {
+  text-align: justify;
+}
 
 form {
   border: $colorBordes solid 1px;
@@ -116,7 +125,6 @@ textarea {
   border: 1px solid $colorBordes !important;
   height: 200px;
   }
-/* Login FIN */
 
 footer {
   background-color: $colorNavFooter;
