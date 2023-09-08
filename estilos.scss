@@ -111,6 +111,11 @@ form {
 form input {
   border: 1px solid $colorBordes !important;
 }
+
+textarea {
+  border: 1px solid $colorBordes !important;
+  height: 200px;
+  }
 /* Login FIN */
 
 footer {

@@ -105,6 +105,11 @@ form input {
   border: 1px solid black !important;
 }
 
+textarea {
+  border: 1px solid black !important;
+  height: 200px;
+}
+
 /* Login FIN */
 footer {
   background-color: #f0f0f0;
