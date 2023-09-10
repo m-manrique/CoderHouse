@@ -70,6 +70,38 @@ section div img {
   background-size: cover;
 }
 
+.imgA {
+  transition: 0.3s linear;
+}
+
+.imgA:hover {
+  transform: skew(10deg);
+}
+
+.imgB {
+  transition: 0.3s linear;
+}
+
+.imgB:hover {
+  transform: skewY(10deg);
+}
+
+.imgC {
+  transition: 0.3s linear;
+}
+
+.imgC:hover {
+  transform: scale(1.3);
+}
+
+.imgD {
+  transition: 1s linear;
+}
+
+.imgD:hover {
+  transform: rotate(360deg);
+}
+
 h4 {
   border: black solid 1px;
   background-color: #ffffff;
