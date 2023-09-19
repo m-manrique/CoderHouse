@@ -16,14 +16,14 @@ main {
 
 .navbar {
   background-color: $colorNavFooter;
-}
 
-.navbar-brand {
-  color: $colorBordes !important;
-}
+  .navbar-brand {
+    color: $colorBordes !important;
+  }
 
-.navbar-toggler {
-  border: 3px solid $colorBordes !important;
+  .navbar-toggler {
+    border: 3px solid $colorBordes !important;
+  }
 }
 
 .nav-link {

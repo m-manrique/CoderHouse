@@ -12,12 +12,10 @@ main {
 .navbar {
   background-color: #f0f0f0;
 }
-
-.navbar-brand {
+.navbar .navbar-brand {
   color: black !important;
 }
-
-.navbar-toggler {
+.navbar .navbar-toggler {
   border: 3px solid black !important;
 }
 
